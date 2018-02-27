@@ -16,7 +16,7 @@ environment:
 
 install:
   - set PATH=%PATH%;%PYTHON%/Scripts/
-  - pip.exe install --upgrade
+  - pip.exe install conan --upgrade
   - conan user # It creates the conan data directory
 
 test_script:
